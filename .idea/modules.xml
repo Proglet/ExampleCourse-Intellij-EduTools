@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.iml" filepath="$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gui-basics/001.MyApplication/ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.iml" filepath="$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.main.iml" filepath="$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.test.iml" filepath="$PROJECT_DIR$/.idea/modules/if/001.GreaterNumber/ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.iml" filepath="$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.main.iml" filepath="$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.test.iml" filepath="$PROJECT_DIR$/.idea/modules/if/002.GradesAndPoints/ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ExampleCourse-Intellij-EduTools.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/ExampleCourse-Intellij-EduTools.util.test.iml" />
+    </modules>
+  </component>
+</project>

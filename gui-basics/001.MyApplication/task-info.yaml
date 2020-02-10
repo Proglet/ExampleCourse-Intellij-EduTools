@@ -1,0 +1,13 @@
+type: edu
+files:
+- name: src/MyApplication.java
+  visible: true
+  placeholders:
+  - offset: 283
+    length: 235
+    placeholder_text: ""
+  - offset: 233
+    length: 40
+    placeholder_text: System.out.println("Hello World");
+- name: test/MyApplicationTest.java
+  visible: false

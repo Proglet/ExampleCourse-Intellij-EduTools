@@ -1,0 +1,82 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+plugins {
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+}
+def printOutput(def output) {
+    return tasks.create("printOutput") {
+        for (line in output.toString().readLines()) {
+            println "#educational_plugin" + line
+        }
+    }
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+
+        }
+    }
+    apply plugin: 'application'
+    apply plugin: 'java'
+    apply plugin: 'org.openjfx.javafxplugin'
+
+    sourceCompatibility = 11
+
+    javafx {
+        version = "11"
+        modules = [ 'javafx.controls' ]
+    }
+
+    dependencies {
+        implementation files('../../lib/edu-test-utils-0.4.2.jar')
+        implementation files('../../lib/javaparser-core-3.14.159265359.jar')
+        implementation files('../../lib/avans-test-helper.jar')
+
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        testCompile group: 'org.testfx', name: 'testfx-core', version: '4.0.16-alpha'
+        testCompile group: 'org.testfx', name: 'testfx-junit', version: '4.0.16-alpha'
+    }
+
+    sourceSets {
+        main {
+            java.srcDir 'src'
+        }
+        test {
+            java.srcDir 'test'
+        }
+    }
+
+    mainClassName = project.hasProperty("mainClass") ? project.getProperty("mainClass") : ""
+
+    def runOutput = new ByteArrayOutputStream()
+    tasks.run.setStandardOutput(runOutput)
+    tasks.run.doLast { printOutput(runOutput) }
+}
+
+project(':util') {
+    dependencies {
+        compile group: 'junit', name: 'junit', version: '4.12'
+        compile group: 'org.testfx', name: 'testfx-core', version: '4.0.16-alpha'
+        compile group: 'org.testfx', name: 'testfx-junit', version: '4.0.16-alpha'
+        implementation files('../../lib/edu-test-utils-0.4.2.jar')
+        implementation files('../../lib/javaparser-core-3.14.159265359.jar')
+        implementation files('../../lib/avans-test-helper.jar')
+    }
+}
+
+configure(subprojects.findAll {it.name != 'util'}) {
+  dependencies {
+    compile project(':util').sourceSets.main.output
+    testCompile project(':util').sourceSets.test.output
+  }
+}

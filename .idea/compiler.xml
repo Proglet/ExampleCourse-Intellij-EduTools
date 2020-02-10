@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.gui-basics-001.MyApplication.test" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.if-001.GreaterNumber.test" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.if-002.GradesAndPoints.test" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.test" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.util.main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools.util.test" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools_main" target="11" />
+      <module name="ExampleCourse-Intellij-EduTools_test" target="11" />
+      <module name="gui-basics-001.MyApplication_main" target="13" />
+      <module name="gui-basics-001.MyApplication_test" target="13" />
+      <module name="if-001-GreaterNumber_main" target="1.8" />
+      <module name="if-001-GreaterNumber_test" target="1.8" />
+      <module name="if-001.GreaterNumber_main" target="13" />
+      <module name="if-001.GreaterNumber_test" target="13" />
+      <module name="if-002.GradesAndPoints_main" target="13" />
+      <module name="if-002.GradesAndPoints_test" target="13" />
+      <module name="if-task1_main" target="1.8" />
+      <module name="if-task1_test" target="1.8" />
+      <module name="lesson1-task1_main" target="1.8" />
+      <module name="lesson1-task1_test" target="1.8" />
+      <module name="util_main" target="13" />
+      <module name="util_test" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

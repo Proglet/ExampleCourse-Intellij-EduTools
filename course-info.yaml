@@ -1,0 +1,8 @@
+title: ExampleCourse-Intellij-EduTools
+language: English
+summary: |
+  Example Java course.
+programming_language: Java
+content:
+- if
+- gui-basics
