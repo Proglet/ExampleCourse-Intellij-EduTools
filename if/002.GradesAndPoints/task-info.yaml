@@ -1,6 +1,10 @@
 type: edu
 files:
-- name: src/Task.java
+- name: src/GradesAndPoints.java
   visible: true
-- name: test/Tests.java
+  placeholders:
+  - offset: 155
+    length: 558
+    placeholder_text: ""
+- name: test/GradesAndPointsTest.java
   visible: false
