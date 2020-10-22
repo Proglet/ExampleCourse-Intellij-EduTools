@@ -3,6 +3,7 @@ language: English
 summary: |
   Example Java course.
 programming_language: Java
+testrunner: proglet/javatester
 content:
 - if
 - gui-basics
